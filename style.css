@@ -1,0 +1,165 @@
+body {
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body section img {
+    width: 700px;
+}
+
+.navbar-brand {
+    color: #ececec;
+    font-size: 1.6rem;
+}
+
+.navbar-brand:hover {
+    color: #6451CD;
+}
+
+.navbar .btn {
+    font-weight: 800;
+    border: 0px;
+    font-size: 1.2rem;
+}
+
+section {
+    margin-top: 100px;
+}
+
+section img {
+    margin-top: 40px;
+}
+
+#headingGroup span {
+    color: #6451CD;
+}
+
+#headingGroup h1 {
+    font-size: 4rem;
+}
+
+.sun span {
+    color: orange;
+}
+
+.mercury span {
+    color: gray;
+}
+
+.venus span {
+    color: gold;
+}
+
+.earth span {
+    color: #006eff;
+}
+
+.mars span {
+    color: orangered;
+}
+
+.jupiter span {
+    color: burlywood;
+}
+
+.saturn span {
+    color: rgb(255, 249, 181);
+}
+
+.uranus span {
+    color: rgb(140, 234, 255);
+}
+
+.neptune span {
+    color: #006eff;
+}
+
+.sun h1,
+.mercury h1,
+.venus h1,
+.earth h1,
+.mars h1,
+.jupiter h1,
+.saturn h1,
+.uranus h1,
+.neptune h1 {
+    font-size: 4rem;
+}
+
+.sun p,
+.mercury p,
+.venus p,
+.earth p,
+.mars p,
+.jupiter p,
+.saturn p,
+.uranus p,
+.neptune p {
+    font-size: 1.2rem;
+}
+
+.image img {
+    width: 100%;
+}
+
+.mars img {
+    width: 70%;
+}
+
+.jupiter img {
+    width: 90%;
+}
+
+.saturn img {
+    width: 90%;
+}
+
+.neptune img {
+    width: 60%;
+}
+
+.nav-link.disabled .btn {
+    color: rgb(118, 118, 118);
+}
+
+.navbar.scrolled {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+
+}
+
+.navbar-brand.scrolled {
+    color: black;
+    transition: color 1s;
+}
+
+.card-header {
+    background-color: #6451CD;
+}
+
+.card-body {
+    background-color: #1C2431;
+}
+
+.card {
+    border: 0px;
+}
+
+.collapse .btn:hover {
+    background-color: #6451CD;
+    color: #ffffff;
+}
+
+@media (max-width: 1466px) {
+    #headingGroup h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 990px) {
+
+    section,
+    section img {
+        margin-top: 0;
+    }
+}
